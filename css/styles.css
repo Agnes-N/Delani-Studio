@@ -1,3 +1,9 @@
+@media only screen and (max-width: 768px) {
+    .col-5{
+      width: 100%;
+    }
+  }
+
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
 body{
     font-family: 'PT Sans', sans-serif;
@@ -45,12 +51,7 @@ body{
 ::placeholder{
     color: white;
 }
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .col-5{
-      width: 100%;
-    }
-  }
+
 .text{
       color:white;
 }
@@ -74,7 +75,7 @@ body{
 #pro{
     display: none;
 }
-.project{
+/* .project{
     top: 35%;
     left: 45%;
     transform: translate(-50%,-50%);
@@ -94,4 +95,4 @@ body{
     padding: 0;
     margin: 0;
     left: 45%;
-}
+} */

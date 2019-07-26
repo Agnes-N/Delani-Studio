@@ -26,108 +26,125 @@ $(document).ready(function(){
         $("#pro").toggle();
     });
 
-    $(".image4").hide();
+    $(".paragraph4").hide();
     $(".photo4").animate({
         opacity:1
     });
 
     $(".photo4").hover(function(){
         $(this).stop().animate({opacity:.4},200);
-        $(".image4").fadeIn();
+        $(".paragraph4").fadeIn();
     },function(){
-        $(this).stop().animate({opacity:.2},500);
-        $(".image4").fadeOut();
+        $(this).stop().animate({opacity:2},500);
+        $(".paragraph4").fadeOut();
     });
 
-    $(".image3").hide();
+    $(".paragraph3").hide();
     $(".photo3").animate({
         opacity:1
     });
 
     $(".photo3").hover(function(){
         $(this).stop().animate({opacity:.4},200);
-        $(".image3").fadeIn();
+        $(".paragraph3").fadeIn();
     },function(){
-        $(this).stop().animate({opacity:.2},500);
-        $(".image3").fadeOut();
+        $(this).stop().animate({opacity:2},500);
+        $(".paragraph3").fadeOut();
     });
 
-    $(".image2").hide();
+    $(".paragraph2").hide();
     $(".photo2").animate({
         opacity:1
     });
 
     $(".photo2").hover(function(){
         $(this).stop().animate({opacity:.4},200);
-        $(".image2").fadeIn();
+        $(".paragraph2").fadeIn();
     },function(){
         $(this).stop().animate({opacity:2},500);
-        $(".image2").fadeOut();
+        $(".paragraph2").fadeOut();
     });
 
-    $(".image1").hide();
+    $(".paragraph1").hide();
     $(".photo1").animate({
         opacity:1
     });
 
     $(".photo1").hover(function(){
         $(this).stop().animate({opacity:.4},200);
-        $(".image1").fadeIn();
+        $(".paragraph1").fadeIn();
     },function(){
         $(this).stop().animate({opacity:2},500);
-        $(".image1").fadeOut();
+        $(".paragraph1").fadeOut();
     });
 
-    $(".image5").hide();
+    $(".paragraph5").hide();
     $(".photo5").animate({
         opacity:1
     });
 
     $(".photo5").hover(function(){
         $(this).stop().animate({opacity:.4},200);
-        $(".image5").fadeIn();
+        $(".paragraph5").fadeIn();
     },function(){
         $(this).stop().animate({opacity:2},500);
-        $(".image5").fadeOut();
+        $(".paragraph5").fadeOut();
     });
 
-    $(".image6").hide();
+    $(".paragraph6").hide();
     $(".photo6").animate({
         opacity:1
     });
 
     $(".photo6").hover(function(){
         $(this).stop().animate({opacity:.4},200);
-        $(".image6").fadeIn();
+        $(".paragraph6").fadeIn();
     },function(){
         $(this).stop().animate({opacity:2},500);
-        $(".image6").fadeOut();
+        $(".paragraph6").fadeOut();
     });
 
-    $(".image7").hide();
+    $(".paragraph7").hide();
     $(".photo7").animate({
         opacity:1
     });
 
     $(".photo7").hover(function(){
         $(this).stop().animate({opacity:.4},200);
-        $(".image7").fadeIn();
+        $(".paragraph7").fadeIn();
     },function(){
         $(this).stop().animate({opacity:2},500);
-        $(".image7").fadeOut();
+        $(".paragraph7").fadeOut();
     });
 
-    $(".image8").hide();
+    $(".paragraph8").hide();
     $(".photo8").animate({
         opacity:1
     });
 
     $(".photo8").hover(function(){
         $(this).stop().animate({opacity:.4},200);
-        $(".image8").fadeIn();
+        $(".paragraph8").fadeIn();
     },function(){
         $(this).stop().animate({opacity:2},500);
-        $(".image8").fadeOut();
+        $(".paragraph8").fadeOut();
     });
+
+    $("#send").click(function(event){
+        var name=$("#inputName").val();
+        var email=$("#inputEmail").val();
+        var message=$("#inputMessage").val();
+        if((name==="")||(email==="")||(message==="")){
+            alert("Please, fill the required fields!");
+        }
+        else{
+            alert(name+ ", we have received your message. Thank you for reaching out to us!");
+        }
+        event.preventDefault();
+    });
+ 
 });
 
+// $("#story").show();
+
+//       event.preventDefault();
