@@ -1,7 +1,10 @@
 @media only screen and (max-width: 768px) {
-    .col-5{
+    .car-body{
       width: 100%;
     }
+    
+    
+    
   }
 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
@@ -10,8 +13,8 @@ body{
 }
 
 .logo-image{
-    margin-top: 250px;
-    margin-bottom: 70px;
+    margin-top: 20%;
+    margin-bottom: 20%;
     
 }
 .main{
@@ -26,16 +29,25 @@ body{
 .main .item{
     position: relative;
 }
+/* .form-row{
+    width: 50%;
+} */
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10% 0px 10%;
+}
 #inputName{
     background-color: transparent;
-    width: 250px;
+    /* width: 50%; */
     height: 30px;
     border-radius: 0px;
-    margin-left: 250px; 
+    /* margin-left: 250px;  */
 }
 #inputEmail{
     background-color: transparent;
-    width: 250px;
+    /* width: 50%; */
     height: 30px; 
     border-radius: 0px;
     /* margin-left: -250px; */
@@ -44,17 +56,17 @@ body{
 #inputMessage{
     background-color: transparent;
     border-radius: 0px;
-    width: 510px;
-    /* height: 300px; */
-    margin-left: 280px;
 }
-input::placeholder{
+input[type="text"]::-webkit-input-placeholder {
+    color:white;
+}
+input[type="email"]::-webkit-input-placeholder {
+    color:white;
+}
+textarea::-webkit-input-placeholder {
     color: white;
 }
 
-.text{
-      color:white;
-}
 .item:hover .text{
     height: 100%;
     color:white;
