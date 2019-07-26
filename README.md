@@ -2,7 +2,7 @@
 
 It shows what our studio do. 26 July 2019.
 
-##Author
+## Author
 
 Agnes Nyiramisigaro
 
