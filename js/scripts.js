@@ -144,7 +144,3 @@ $(document).ready(function(){
     });
  
 });
-
-// $("#story").show();
-
-//       event.preventDefault();
