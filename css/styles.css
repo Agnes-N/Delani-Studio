@@ -43,7 +43,12 @@ form{
     height: 30px; 
     border-radius: 0px;
 }
-
+.md-textarea{
+    background-color: transparent;
+}
+textarea.form-control::placeholder {
+    color: white;
+    }
 #inputMessage{
     background-color: transparent;
     border-radius: 0px;
@@ -54,9 +59,7 @@ input[type="text"]::-webkit-input-placeholder {
 input[type="email"]::-webkit-input-placeholder {
     color:white;
 }
-::placeholder {
-    color: white;
-}
+
 
 .item:hover .text{
     height: 100%;
