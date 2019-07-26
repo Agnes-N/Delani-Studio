@@ -2,9 +2,6 @@
     .car-body{
       width: 100%;
     }
-    
-    
-    
   }
 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
@@ -29,9 +26,7 @@ body{
 .main .item{
     position: relative;
 }
-/* .form-row{
-    width: 50%;
-} */
+
 form{
     display: flex;
     justify-content: center;
@@ -40,17 +35,13 @@ form{
 }
 #inputName{
     background-color: transparent;
-    /* width: 50%; */
     height: 30px;
     border-radius: 0px;
-    /* margin-left: 250px;  */
 }
 #inputEmail{
     background-color: transparent;
-    /* width: 50%; */
     height: 30px; 
     border-radius: 0px;
-    /* margin-left: -250px; */
 }
 
 #inputMessage{
@@ -63,7 +54,7 @@ input[type="text"]::-webkit-input-placeholder {
 input[type="email"]::-webkit-input-placeholder {
     color:white;
 }
-textarea::-webkit-input-placeholder {
+::placeholder {
     color: white;
 }
 
