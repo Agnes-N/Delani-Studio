@@ -1,38 +1,35 @@
 $(document).ready(function(){
     $("#design").click(function(){
-        $("#des").toggle();
+        $("#design-text").toggle();
         $("#design").toggle();
     });
-    $("#des").click(function(){
+    $("#design-text").click(function(){
         $("#design").toggle();
-        $("#des").toggle();
+        $("#design-text").toggle();
     });
 
     $("#development").click(function(){
-        $("#dev").toggle();
+        $("#development-text").toggle();
         $("#development").toggle();
     });
-    $("#dev").click(function(){
+    $("#development-text").click(function(){
         $("#development").toggle();
-        $("#dev").toggle();
+        $("#development-text").toggle();
     });
 
     $("#product").click(function(){
-        $("#pro").toggle();
+        $("#product-text").toggle();
         $("#product").toggle();
     });
-    $("#pro").click(function(){
+    $("#product-text").click(function(){
         $("#product").toggle();
-        $("#pro").toggle();
+        $("#product-text").toggle();
     });
 
     $(".paragraph4").hide();
-    $(".photo4").animate({
-        opacity:1
-    });
 
     $(".photo4").hover(function(){
-        $(this).stop().animate({opacity:.4},200);
+        $(this).stop().animate({opacity:.2},200);
         $(".paragraph4").fadeIn();
     },function(){
         $(this).stop().animate({opacity:2},500);
@@ -40,12 +37,8 @@ $(document).ready(function(){
     });
 
     $(".paragraph3").hide();
-    $(".photo3").animate({
-        opacity:1
-    });
-
     $(".photo3").hover(function(){
-        $(this).stop().animate({opacity:.4},200);
+        $(this).stop().animate({opacity:.2},200);
         $(".paragraph3").fadeIn();
     },function(){
         $(this).stop().animate({opacity:2},500);
@@ -53,12 +46,8 @@ $(document).ready(function(){
     });
 
     $(".paragraph2").hide();
-    $(".photo2").animate({
-        opacity:1
-    });
-
     $(".photo2").hover(function(){
-        $(this).stop().animate({opacity:.4},200);
+        $(this).stop().animate({opacity:.2},200);
         $(".paragraph2").fadeIn();
     },function(){
         $(this).stop().animate({opacity:2},500);
@@ -66,12 +55,8 @@ $(document).ready(function(){
     });
 
     $(".paragraph1").hide();
-    $(".photo1").animate({
-        opacity:1
-    });
-
     $(".photo1").hover(function(){
-        $(this).stop().animate({opacity:.4},200);
+        $(this).stop().animate({opacity:.2},200);
         $(".paragraph1").fadeIn();
     },function(){
         $(this).stop().animate({opacity:2},500);
@@ -79,12 +64,8 @@ $(document).ready(function(){
     });
 
     $(".paragraph5").hide();
-    $(".photo5").animate({
-        opacity:1
-    });
-
     $(".photo5").hover(function(){
-        $(this).stop().animate({opacity:.4},200);
+        $(this).stop().animate({opacity:.2},200);
         $(".paragraph5").fadeIn();
     },function(){
         $(this).stop().animate({opacity:2},500);
@@ -92,12 +73,8 @@ $(document).ready(function(){
     });
 
     $(".paragraph6").hide();
-    $(".photo6").animate({
-        opacity:1
-    });
-
     $(".photo6").hover(function(){
-        $(this).stop().animate({opacity:.4},200);
+        $(this).stop().animate({opacity:.2},200);
         $(".paragraph6").fadeIn();
     },function(){
         $(this).stop().animate({opacity:2},500);
@@ -105,12 +82,8 @@ $(document).ready(function(){
     });
 
     $(".paragraph7").hide();
-    $(".photo7").animate({
-        opacity:1
-    });
-
     $(".photo7").hover(function(){
-        $(this).stop().animate({opacity:.4},200);
+        $(this).stop().animate({opacity:.2},200);
         $(".paragraph7").fadeIn();
     },function(){
         $(this).stop().animate({opacity:2},500);
@@ -118,15 +91,12 @@ $(document).ready(function(){
     });
 
     $(".paragraph8").hide();
-    $(".photo8").animate({
-        opacity:1
-    });
 
     $(".photo8").hover(function(){
-        $(this).stop().animate({opacity:.4},200);
+        $(this).stop().animate({opacity:.2},200);
         $(".paragraph8").fadeIn();
     },function(){
-        $(this).stop().animate({opacity:2},500);
+        $(this).stop().animate({opacity:1},500);
         $(".paragraph8").fadeOut();
     });
 

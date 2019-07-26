@@ -28,14 +28,14 @@ body{
 }
 #inputName{
     background-color: transparent;
-    /* width: 200px; */
+    width: 250px;
     height: 30px;
     border-radius: 0px;
-    /* margin-left: 280px; */ 
+    margin-left: 250px; 
 }
 #inputEmail{
     background-color: transparent;
-    /* width: 200px; */
+    width: 250px;
     height: 30px; 
     border-radius: 0px;
     /* margin-left: -250px; */
@@ -44,11 +44,11 @@ body{
 #inputMessage{
     background-color: transparent;
     border-radius: 0px;
-    /* width: 460px;
-    height: 300px;
-    margin-left: 295px; */
+    width: 510px;
+    /* height: 300px; */
+    margin-left: 280px;
 }
-::placeholder{
+input::placeholder{
     color: white;
 }
 
@@ -66,33 +66,41 @@ body{
     border-bottom:3px solid white;
 }
 
-#des{
+#design-text{
     display: none;
 }
-#dev{
+#development-text{
     display: none;
 }
-#pro{
+#product-text{
     display: none;
 }
-/* .project{
-    top: 35%;
-    left: 45%;
-    transform: translate(-50%,-50%);
-    font-size: 28px;
-    position: absolute;
-    width: 60%;
-    height: 70%;
+
+.paragraph1{
+    margin-top: -100px;
 }
-.project>p{
-    position: absolute;
-    transform: translate(-50%);
-    color: white;
-    width: 100%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    top: 55%;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    left: 45%;
-} */
+.paragraph2{
+    margin-top: -100px;
+}
+.paragraph3{
+    margin-top: -100px;
+}
+.paragraph4{
+    margin-top: -100px;
+}
+.paragraph5{
+    margin-top: -100px;
+}
+.paragraph6{
+    margin-top: -100px;
+}
+.paragraph7{
+    margin-top: -100px;
+}
+.paragraph8{
+    margin-top: -100px;
+}
+
+#footer{
+    margin-top: 30px;
+}
